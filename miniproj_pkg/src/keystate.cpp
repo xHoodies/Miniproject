@@ -105,12 +105,12 @@ bool KeystateController::checkState() {
 
     //checking for arrow keys
     if (state[SDL_SCANCODE_LEFT]) {
-        direction[1] -= 1*scheme;
+        direction[1] += 1;
         keyPressed = true;
     }
 
     if (state[SDL_SCANCODE_RIGHT]) {
-        direction[1] += 1*scheme;
+        direction[1] -= 1;
         keyPressed = true;
     }
 

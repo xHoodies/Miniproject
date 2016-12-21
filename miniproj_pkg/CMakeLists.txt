@@ -123,8 +123,6 @@ include_directories(${catkin_INCLUDE_DIRS} ${SDL_HEADERS})
 ## either from message generation or dynamic reconfigure
 # add_dependencies(miniproj_pkg ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
-#mulig fix
-link_directories(dir)
 link_directories(${SDL_LIB})
 
 ## Declare a C++ executable

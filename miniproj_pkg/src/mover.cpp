@@ -40,9 +40,9 @@ int main(int argc, char * * argv) {
         }
 
         if (cmd_y < 0){
-            targetangular = -SPEED;
-        } else if (cmd_y > 0){
             targetangular = SPEED;
+        } else if (cmd_y > 0){
+            targetangular = -SPEED;
         } else {
             targetangular = 0;
         }
