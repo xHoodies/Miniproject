@@ -124,6 +124,7 @@ include_directories(${catkin_INCLUDE_DIRS} ${SDL_HEADERS})
 # add_dependencies(miniproj_pkg ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 link_directories(${SDL_LIB})
+link_directories(dir)
 
 ## Declare a C++ executable
  add_executable(keystate_node src/keystate.cpp)
